@@ -1,111 +1,122 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
-    
+    margin: 0px;
 }
-h1{
+
+h1 {
     font-size: xx-large;
     font-family: cursive;
     color: rgb(43, 172, 101);
-    
 }
-h2{
+
+h2 {
     font-size: x-large;
     font-family: cursive;
     font-weight: 700;
-   color: darkblue;
+    color: darkblue;
 }
-.half-width{
+
+.half-width {
     width: 35%;
     float: left;
     margin: 2%;
     padding: 5%;
 }
-.half-width img{
+
+.half-width img {
     width: 100%;
 }
-#header-bg{
-    background-image: url("personal-website(images)\header-bg.png");
-    background-repeat: no-repeat;
-    background-color: skyblue;
-}
-section{
+
+section {
     height: 700px;
-}
-#biography-bg{
-  background-image: url("personal-website(images)\latest-work-bg.png");
-  background-color: rgb(105, 166, 190);
+    border: 7px solid darkcyan;
 }
 
-#text-block{
+#header-bg {
+    background-image: url("personal-website(images)\header-bg.png");
+    background-repeat: no-repeat;
+}
+
+#biography-bg {
+    background-image: url("personal-website(images)\biography-bg.png");
+}
+
+#text-block {
     margin-top: 110px;
 }
-#text-block2{
+
+#text-block2 {
     margin-top: 175px;
 }
-h3{
+
+h3 {
     font-size: xx-large;
-   color: darkblue;
-   font-family: cursive;
+    color: darkblue;
+    font-family: cursive;
 }
-#centering-line{
+
+#centering-line {
     text-align: center;
-    
- }
-.one--third-width{
+}
+
+.one--third-width {
     width: 25%;
     float: left;
     margin: 2%;
     padding: 2%;
-    
 }
-.one--third-width img{
+
+.one--third-width img {
     width: 100%;
     box-shadow: 10px 10px 40px rgb(85, 85, 138);
     margin-top: 65px;
     border-left: 7px solid darkblue;
+}
 
-}
-#latest-work-bg{
-    background-color: skyblue;
-}
-#footer-bg{
+#latest-work-bg {
     background-image: url("personal-website(images)\latest-work-bg.png");
-   background-color: skyblue;
 }
-#centering{
+
+#footer-bg {
+    background-image: url("personal-website(images)\footer-bg.png");
+}
+
+#centering {
     text-align: center;
     text-align: justify;
-}#skills-bg{
-    background-color: rgb(105, 166, 190);
-
 }
-#text-block3{
+
+#skills-bg {
+    background-image: url("personal-website(images)\latest-work-bg.png");
+}
+
+#text-block3 {
     margin-top: 110px;
     text-align: justify;
-
 }
-.link-button{
+
+.link-button {
     text-decoration: none;
-   background-image: linear-gradient(45deg, rgb(25, 131, 73),mediumseagreen,mediumspringgreen);
+    background-image: linear-gradient(45deg, rgb(25, 131, 73), mediumseagreen, mediumspringgreen);
     padding: 10px 20px;
     border-radius: 10px;
     color: white;
     font-weight: bolder;
 }
-.link-button2{
+
+.link-button2 {
     text-decoration: none;
-    background-image: linear-gradient(45deg,rgb(26, 26, 122),rgb(53, 53, 139),rgb(111, 111, 158));
-     padding: 10px 20px;
-     border-radius: 10px;
-     color: white;
-     font-weight: bolder;    
+    background-image: linear-gradient(45deg, rgb(26, 26, 122), rgb(53, 53, 139), rgb(111, 111, 158));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
 }
-.last-block{
+
+.last-block {
     font-size: larger;
     color: white;
     border-radius: 40px;
-    padding: 20px 30px ;
-    background-image: linear-gradient(45deg,rgb(53, 53, 139), rgb(25, 131, 73),mediumseagreen,mediumspringgreen);
-    
-    
+    padding: 20px 30px;
+    background-image: linear-gradient(45deg, rgb(53, 53, 139), rgb(25, 131, 73), mediumseagreen, mediumspringgreen);
 }
